@@ -10,10 +10,16 @@
 
 <?php 
 
- // PHP 配列
-$scores = array('数学' => 70, '英語' => 90, '国語' => 80);
+  // PHP 配列
+  $scores = array('数学' => 70, '英語' => 90, '国語' => 80);
 
-  
+
+  // 繰り返し表現(キーとバリューを順番に取り出す為のforeach文)
+  foreach($scores as $key => $value) {
+
+  // 出力結果の表示
+  echo $key.'は'.$value.'点です。';
+  }
 ?>
 
 </body>
